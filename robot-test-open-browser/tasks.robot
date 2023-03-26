@@ -31,3 +31,4 @@ Obtener el código de estado HTTP
     ${response}=    GET On Session    my_session    /
     ${status_code}=    Set Variable    ${response.status_code}
     Log    El código de estado HTTP es ${status_code}.
+
