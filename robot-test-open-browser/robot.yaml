@@ -1,0 +1,11 @@
+tasks:
+  Verificar estado de me web:
+    robotTaskName: Verificar estado de me web
+condaConfigFile: conda.yaml
+ignoreFiles:
+- .gitignore
+artifactsDir: output
+PATH:
+- .
+PYTHONPATH:
+- .
